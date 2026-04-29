@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Navisworks Manage"
+                    ProductType="Application" Name="Central Tool" 
+                    Description="Central Tool Navisworks Plugin Suite for BIM/Construction Management"
+                    AppVersion="1.0.0" FriendlyVersion="1.0.0"  
+                    AppNameSpace="appstore.exchange.autodesk.com" 
+                    ProductCode="{A1B2C3D4-5E6F-7890-ABCD-EF1234567890}"        
+                    Author="CoPilot-Project"
+                    HelpFile=""
+                    OnlineDocumentation="">
+
+  <CompanyDetails Name="BIM Central" Url="https://github.com/your-repo"
+                  Email="support@example.com" />
+
+  <RuntimeRequirements OS="Win64" 
+                       Platform="NAVMAN" 
+                       SeriesMin="Nw20" 
+                       SeriesMax="Nw21" />
+
+  <Components Description="2023">
+    <RuntimeRequirements OS="Win64" Platform="NAVMAN" SeriesMin="Nw20" SeriesMax="Nw20" />
+    <ComponentEntry AppName="CentralNavisworkTool2023" AppType="ManagedPlugin" Version="1.0.0"
+                    ModuleName="./Contents/2023/CentralNavisworkTool.dll" 
+                    AppDescription="Central Tool for Navisworks Manage 2023" />
+  </Components>
+
+  <Components Description="2024">
+    <RuntimeRequirements OS="Win64" Platform="NAVMAN" SeriesMin="Nw21" SeriesMax="Nw21" />
+    <ComponentEntry AppName="CentralNavisworkTool2024" AppType="ManagedPlugin" Version="1.0.0"
+                    ModuleName="./Contents/2024/CentralNavisworkTool.dll" 
+                    AppDescription="Central Tool for Navisworks Manage 2024" />
+  </Components>
+  
+</ApplicationPackage>
