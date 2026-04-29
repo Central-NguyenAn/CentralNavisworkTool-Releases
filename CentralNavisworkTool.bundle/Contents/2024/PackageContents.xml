@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Navisworks Manage"
-                    ProductType="Application" Name="Central Tool" 
+                    ProductType="Application" Name="CentralNavisworkTool v1.0.0" 
                     Description="Central Tool Navisworks Plugin Suite for BIM/Construction Management"
                     AppVersion="1.0.0" FriendlyVersion="1.0.0"  
                     AppNameSpace="appstore.exchange.autodesk.com" 
